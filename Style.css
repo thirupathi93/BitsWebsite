@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#links{
+    /* border: solid 1px; */
+    height: 40px;
+    background-color:blue;
+    line-height: 40px;
+}
+#text1,#text2,#text3,#text4,#text5,#text6{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1{
+    padding-left: 35px;
+}
+.out{
+    border: solid 1px;
+    height: 170px;
+    display: flex;
+
+}
+#in1,#in2{
+     /* border: solid 1px; */
+    height: 170px; 
+}
+#in1{
+    width: 170px;
+    background-color: aliceblue;
+}
+#in2{
+    width: 1500px;
+    text-align: center;
+    background-color: aliceblue;
+}
+#clg{
+    font-size: 56px;
+    color:red;
+}
+#txt1,#txt2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+#txt3{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+#UGC{
+    background-color:beige;
+    height: 25px;
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+#navbox{
+    /* border: solid 1px; */
+    height:50px;
+}
+ul li{
+
+    /* border:solid 1px; */
+    height: 50px;
+    width: 150px;
+    float: left;
+    background-color:blue;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+    width: 350px;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+ul li:hover{
+    background-color: orangered;
+}
+.logos{
+    /* border: solid 1px; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color:skyblue;
+    padding: 20px;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    /* border: solid 1px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+.obox{
+    /* border: solid 1px; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    /* border: solid 1px; */
+    height: 400px;
+}
+#inbox1{
+    width: 600px;
+     background-image: url(bg1.jpg);
+     background-repeat: no-repeat;
+     background-size: 600px 400px;
+     animation-name: imgchange;
+     animation-duration: 16s;
+     animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0% {background-image: url(bg2.jpg);}
+    10% {background-image: url(bg3.jpg);}
+    20% {background-image: url(bg4.jpg);}
+    30% {background-image: url(bg5.jpg);}
+    40% {background-image: url(bg7.jpg);}
+    50%{background-image: url(bg6.jpg);}
+    60% {background-image: url(bg11.jpg);}
+    70% {background-image: url(bg12.jpg);}
+    80% {background-image: url(bg10.jpg);}
+    90% {background-image: url(bg11.jpg);}
+}
+#inbox,#inbox3{
+    width: 400px;
+    text-align: center;
+
+}

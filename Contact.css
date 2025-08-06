@@ -1,0 +1,43 @@
+body{
+    background-image: url(bgi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1560px 800px;
+}
+form{
+    border: solid 1px #000 hidden;
+    width: 400px;
+    padding-left: 15px;
+    margin-left: 200px;
+    margin:50px;
+}
+h1{
+    color: darkorchid;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    color: darkorchid;
+    font-size: 22px;
+    font-weight: bold;
+}
+input{
+    height: 26px;
+    width: 350px;
+    border-radius: 20px;
+}
+textarea{
+    width: 350px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color:greenyellow;
+    font-size: 22px;
+    color:blueviolet ;
+    font-weight: bold;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: lightblue;
+}
